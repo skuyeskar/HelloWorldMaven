@@ -16,7 +16,7 @@
  <maven.compiler.target>1.8</maven.compiler.target>
 </properties>
   
- <!--distributionManagement>
+ <distributionManagement>
   
        <repository>
          <id>internal.repo</id>
@@ -24,8 +24,8 @@
          <url>file:/var/lib/jenkins/artifact/</url>
        </repository>
 
-  </distributionManagement-->
-<distributionManagement>
+  </distributionManagement>
+<!--distributionManagement>
   <repository>
     <id>releases</id>
     <!-- CHANGE HERE by your team nexus server -->
@@ -36,7 +36,7 @@
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://35.184.129.181:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
-</distributionManagement>
+</distributionManagement-->
 
 
   <dependencies>
